@@ -10,8 +10,12 @@ image:https://img.shields.io/docker/pulls/{hubp}.svg[link={hub}]
 The official Docker image for https://{ao}[Alpine Linux].
 The image is only 5MB and has access to a package repository that is much more featureful than other BusyBox based images.
 
-=== Why Comparison '++s'
-'link' [!['Open in GitHub Codespaces']('https://github.com/codespaces/badge.svg')]('https://codespaces.new/matcheydj/docker-alpine/pull/2?quickstart=1')' 'syntax'
+=== `Why Comparison` '++s'
+`'link' [!['Open in GitHub Codespaces']`
+`('https://github.com/codespaces/badge.svg')`
+`]('https://codespaces.new/matcheydj/docker-alpine/pull/2?quickstart=1')'`
+`'syntax'`
+
 Docker images today are big. Do it yourself.
 Unified images tend to scale larger.
 There are a lot of ways to make them smaller, but the Docker populace still jumps to '@'ubuntu' base image for most projects.
@@ -28,7 +32,9 @@ There are images such as `progrium/busybox` which get us close to a minimal cont
 Alpine Linux has a much more featureful and up to date https://pkgs.{ao}[Package Index]:
 [source]
 ----
-== Prompts
+=== :link/:https://github.com/codespaces/badge.svg
+== Prompts :: https://codespaces.new/matcheydj/docker-alpine/pull/2?quickstart=1:
+--
 $ docker run progrium/busybox opkg-install nodejs
 Unknown package 'nodejs'.
 Collected errors:

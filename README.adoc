@@ -70,4 +70,4 @@ FROM alpine:3.16
 RUN apk add --no-cache mysql-client
 ENTRYPOINT ["mysql"]
 ----
-Only 4 seconds to build and results in a 41 MB image!
+Only 4 seconds to build and results in a 41 MB image. Strict branch protection rules created on Github at time of update (this file).
